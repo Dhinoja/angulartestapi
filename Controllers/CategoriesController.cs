@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using AngularTestApi.Models;
@@ -18,6 +17,20 @@ namespace AngularTestApi.Controllers
         public CategoriesController(angulartestContext context)
         {
             _context = context;
+            //AddDefaultValues();
+        }
+
+        public void AddDefaultValues()
+        {
+            if (!_context.Categories.Any())
+            {
+                _context.Categories.AddRange(new[]{
+                    new Categories{Name="Dairy"},
+                    new Categories{Name="Bills"},
+                    new Categories{Name="Rent"},
+                });
+                _context.SaveChanges();
+            }
         }
 
         // GET: api/Categories

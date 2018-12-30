@@ -30,8 +30,9 @@ namespace AngularTestApi {
                 //)
             );
 
-            var connectionString = @"Data Source=localhost;Initial Catalog=angulartest;Persist Security Info=True;User ID=sa;Password=Aptean@123";
+            var connectionString = @"Data Source=localhost;Initial Catalog=angulartest;Persist Security Info=True;User ID=sa;Password=sa@123";
             services.AddDbContext<angulartestContext>(options => options.UseSqlServer(connectionString));
+            //services.AddDbContext<angulartestContext>(options => options.UseInMemoryDatabase("angulartest"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

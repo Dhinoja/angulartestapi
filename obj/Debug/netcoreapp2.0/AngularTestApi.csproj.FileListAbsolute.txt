@@ -9,3 +9,14 @@ C:\Virus\Projects\AngularTestApp\angulartestapi\AngularTestApi\AngularTestApi\ob
 C:\Virus\Projects\AngularTestApp\angulartestapi\AngularTestApi\AngularTestApi\obj\Debug\netcoreapp2.0\AngularTestApi.dll
 C:\Virus\Projects\AngularTestApp\angulartestapi\AngularTestApi\AngularTestApi\obj\Debug\netcoreapp2.0\AngularTestApi.pdb
 C:\Virus\Projects\AngularTestApp\angulartestapi\AngularTestApi\AngularTestApi\obj\Debug\netcoreapp2.0\AngularTestApi.csprojAssemblyReference.cache
+C:\Virus\Projects\angulartest\angulartestapi\bin\Debug\netcoreapp2.0\AngularTestApi.deps.json
+C:\Virus\Projects\angulartest\angulartestapi\bin\Debug\netcoreapp2.0\AngularTestApi.runtimeconfig.json
+C:\Virus\Projects\angulartest\angulartestapi\bin\Debug\netcoreapp2.0\AngularTestApi.runtimeconfig.dev.json
+C:\Virus\Projects\angulartest\angulartestapi\bin\Debug\netcoreapp2.0\AngularTestApi.dll
+C:\Virus\Projects\angulartest\angulartestapi\bin\Debug\netcoreapp2.0\AngularTestApi.pdb
+C:\Virus\Projects\angulartest\angulartestapi\obj\Debug\netcoreapp2.0\AngularTestApi.csproj.CoreCompileInputs.cache
+C:\Virus\Projects\angulartest\angulartestapi\obj\Debug\netcoreapp2.0\AngularTestApi.AssemblyInfoInputs.cache
+C:\Virus\Projects\angulartest\angulartestapi\obj\Debug\netcoreapp2.0\AngularTestApi.AssemblyInfo.cs
+C:\Virus\Projects\angulartest\angulartestapi\obj\Debug\netcoreapp2.0\AngularTestApi.dll
+C:\Virus\Projects\angulartest\angulartestapi\obj\Debug\netcoreapp2.0\AngularTestApi.pdb
+C:\Virus\Projects\angulartest\angulartestapi\obj\Debug\netcoreapp2.0\AngularTestApi.csprojAssemblyReference.cache

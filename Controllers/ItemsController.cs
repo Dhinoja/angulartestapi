@@ -18,6 +18,20 @@ namespace AngularTestApi.Controllers
         public ItemsController(angulartestContext context)
         {
             _context = context;
+            //AddDefaultValues();
+        }
+
+        public void AddDefaultValues()
+        {
+            if (!_context.Items.Any())
+            {
+                _context.Items.AddRange(new[]{
+                    new Items{Name="Item A"},
+                    new Items{Name="Item B"},
+                    new Items{Name="Item C"},
+                });
+                _context.SaveChanges();
+            }
         }
 
         // GET: api/Items
